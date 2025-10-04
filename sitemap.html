@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sitemap-UnitConvertly</title>
+    <link rel="icon" href="row.svg" type="image/svg+xml" />
+    <meta 
+  name="description" 
+  content="UnitConvertly Sitemap – Saare available conversion tools aur pages ki list ek hi jagah. Easy navigation ke liye sitemap dekhein." 
+/>
+<meta 
+  name="keywords" 
+  content="sitemap, unitconvertly sitemap, online converters sitemap, all pages list, site navigation, unitconvertly" 
+/>
+<meta name="author" content="UnitConvertly Team" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+        margin: 0;
+        padding: 20px;
+        opacity: 1;
+        transition: opacity 0.4s ease; /* fade effect */
+      }
+
+      h1 {
+        text-align: center;
+        color: #1e40af;
+        margin-bottom: 20px;
+      }
+
+      /* 🔍 Search Box */
+      .search-box {
+        max-width: 400px;
+        margin: 0 auto 30px;
+        display: flex;
+        gap: 10px;
+      }
+
+      .search-box input {
+        flex: 1;
+        padding: 10px;
+        border: 3px solid #0e0e0f;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      /* 📦 Grid - 2 Columns Fixed */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* हमेशा 2 कॉलम */
+        gap: 20px;
+        max-width: 500px;
+        margin: 0 auto;
+        align-items: center;
+      }
+
+      .card h3 {
+        margin-bottom: 15px;
+        color: #1e3a8a;
+        font-size: 35x;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li {
+        margin: 8px 0;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: rgb(14, 94, 75);
+        font-size: 15px;
+        transition: 0.3s;
+      }
+
+      ul li a:hover {
+        color: #3b82f6;
+        text-decoration: underline;
+      }
+
+      /* ❌ No Results */
+      .no-results {
+        text-align: center;
+        margin-top: 20px;
+        color: #dc2626;
+        display: none;
+      }
+
+      /* ✖ Close Button */
+      .close-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: #5f3a3a;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+ .horizontal-arrow {
+      display: inline-block;
+      transform: rotate(90deg); /* Rotate vertical arrow to horizontal */
+      /* Arrow size adjust kar sakte ho */
+    }
+      .close-btn:hover {
+        background: #b91c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ✖ Close -->
+    <button class="close-btn" onclick="closeWithAnimation()">✖</button>
+
+    <h1>Universal Converter</h1>
+
+    <!-- 🔍 Search -->
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search pages..."
+        onkeyup="searchPages()"
+      />
+    </div>
+
+    <!-- 📦 Sitemap Grid -->
+    <div class="grid" id="sitemapGrid">
+      <div class="card">
+        <h3>Unit Converters</h3>
+        <ul>
+          <li><a href="converter/length-converter.html">Length Converter</a></li>
+          <li><a href="converter/mass-converter.html">Mass Converter</a></li>
+        
+          <li><a href="converter/Volume-converter.html">Volume Converter</a></li>
+          <li><a href="converter/time-converter.html">Time Converter</a></li>
+          <li><a href="converter/storage-converter.html">Storage Converter</a></li>
+          <li><a href="converter/speed-converter.html">Speed Converter</a></li>
+            <li><a href="converter/temprature-converter.html">Temprature Converter</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Top Converters</h3>
+        <ul>
+          <li><a href="converter/base-converter.html">Base Converter</a></li>
+          <li><a href="converter/color-code-converter.html">Color-Code Converter</a></li>
+          <li><a href="converter/frequency-converter.html">Frequency Converter</a></li>
+           <li><a href="converter/number-converter.html">Number Converter</li>
+          <li><a href="converter/text-case-converter.html">Text-Case Converter</a></li>
+          <li><a href="converter/gold-weight-converter.html">Gold-Weight Converter</a></li>
+           <li><a href="converter/large-number-converter.html">Large-Number Converter</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Length Converter</h3>
+        <ul>
+          <li><a href="length/cm-to-m.html">Cm <span class="horizontal-arrow">⇅</span> M Converter </a></li>
+            <li><a href="length/feet-to-inch.html">Feet <span class="horizontal-arrow">⇅</span> Inch Converter </a></li>
+              <li><a href="length/inch-to-cm.html">Cm <span class="horizontal-arrow">⇅</span> Inch Converter </a></li>
+                  <li><a href="length/km-to-cm.html">Km <span class="horizontal-arrow">⇅</span> Cm Converter </a></li>
+                    <li><a href="length/m-to-km.html">KM <span class="horizontal-arrow">⇅</span> M Converter </a></li>
+                      <li><a href="length/yard-to-mile.html">Yard <span class="horizontal-arrow">⇅</span> Mile Converter </a></li>
+        </ul>
+      </div>
+<div class="card">
+        <h3>Basic Conversion</h3>
+        <ul>
+              <li><a href="speed/kmph-to-ms.html">KMPH <span class="horizontal-arrow">⇅</span> MS Converter </a></li>
+                  <li><a href="temprature/celsius-to-fahrenheit.html">Celsius <span class="horizontal-arrow">⇅</span> Fahrenheit  Converter </a></li>
+                      <li><a href="time/seconds-to-miliseconds.html">Second <span class="horizontal-arrow">⇅</span> Millisecond Converter </a></li>
+                      <li><a href="volume/ml-to-l.html">Liter <span class="horizontal-arrow">⇅</span> Milliliter Converter </a></li>
+                      <li><a href="number/lakh-to-million.html">Lakh <span class="horizontal-arrow">⇅</span> Million Converter </a></li>
+                      
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Mass Converter</h3>
+        <ul>
+           <li><a href="length/gram-to-kg.html">Kg <span class="horizontal-arrow">⇅</span> Gram Converter </a></li>
+               
+             <li><a href="mass/kg-to-quintal.html">Quantal <span class="horizontal-arrow">⇅</span> Kg Converter </a></li>
+                 <li><a href="mass/kg-to-tola.html">Kg <span class="horizontal-arrow">⇅</span> Tola Converter </a></li>
+                     <li><a href="mass/gram-to-tola.html">Tola <span class="horizontal-arrow">⇅</span> Gram Converter </a></li>
+                     
+        </ul>
+      </div>
+       <div class="card">
+        <h3>Storage Converter</h3>
+        <ul>
+              <li><a href="storage/gb-to-mb.html">GB <span class="horizontal-arrow">⇅</span> KB Converter </a></li>
+                  <li><a href="storage/kb-to-bytes.html">KB <span class="horizontal-arrow">⇅</span> BYTES Converter </a></li>
+                      <li><a href="storage/mb-to-kb.html">MB <span class="horizontal-arrow">⇅</span> KB Converter </a></li>
+        </ul>
+      </div>
+       
+      <div class="card">
+        <h3>Basic Conversion</h3>
+        <ul>
+              <li><a href="speed/kmph-to-ms.html">KMPH <span class="horizontal-arrow">⇅</span> MS Converter </a></li>
+                  <li><a href="temprature/celsius-to-fahrenheit.html">Celsius <span class="horizontal-arrow">⇅</span> Fahrenheit  Converter </a></li>
+                      <li><a href="time/seconds-to-miliseconds.html">Second <span class="horizontal-arrow">⇅</span> Millisecond Converter </a></li>
+                      <li><a href="volume/ml-to-l.html">Liter <span class="horizontal-arrow">⇅</span> Milliliter Converter </a></li>
+                      <li><a href="number/lakh-to-million.html">Lakh <span class="horizontal-arrow">⇅</span> Million Converter </a></li>
+                      
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Other Conversion</h3>
+        <ul>
+              <li><a href="text/letter-to-ascii.html">Letter <span class="horizontal-arrow">⇅</span> ASCII Converter </a></li>
+                  <li><a href="text/word-to-ascii.html">Word <span class="horizontal-arrow">⇅</span> ASCII  Converter </a></li>
+                      <li><a href="number/number-to-roman.html">Number <span class="horizontal-arrow">⇅</span> Roman Converter </a></li>
+                      <li><a href="number/number-to-word.html">Number <span class="horizontal-arrow">⇅</span> Word Converter </a></li>
+                      <li><a href="number/ScientificNotaion-to-number.html">Scientific-Notaion <span class="horizontal-arrow">⇅</span> Number Converter </a></li>
+                      
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Calculators</h3>
+        <ul>
+                 <li><a href="calculators/age-calculator.html">Age Calculator</a></li>
+          <li><a href="calculators/attendence-calculator.html">Attendence Calculator</a></li>
+          <li><a href="calculators/percentage-calculator.html">Percentage Calculator</a></li>
+           <li><a href="calculators/discount-calculator.html">Discount Calculator</li>
+          <li><a href="calculators/avg-calculator.html"> Average Calculator</a></li>
+            
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Other Tool</h3>
+        <ul>
+                 <li><a href="tools/word-counter.html">Word Counter</a></li>
+          <li><a href="tools/number-generator.html">Number Generator</a></li>
+  <li><a href="Index.html">Home Page</a></li>
+          <li><a href="about">About US</a></li>
+            
+        </ul>
+      </div>
+    </div>
+
+    <div class="no-results" id="noResults">No matching pages found.</div>
+
+    <script>
+      function searchPages() {
+        const input = document
+          .getElementById("searchInput")
+          .value.toLowerCase();
+        const grid = document.getElementById("sitemapGrid");
+        const cards = grid.getElementsByClassName("card");
+        let found = false;
+
+        for (let i = 0; i < cards.length; i++) {
+          const links = cards[i].getElementsByTagName("li");
+          let cardVisible = false;
+
+          for (let j = 0; j < links.length; j++) {
+            const text = links[j].innerText.toLowerCase();
+            if (text.includes(input)) {
+              links[j].style.display = ""; // show matched link
+              cardVisible = true;
+              found = true;
+            } else {
+              links[j].style.display = "none"; // hide unmatched link
+            }
+          }
+
+          // Hide card if no link matches
+          cards[i].style.display = cardVisible ? "" : "none";
+        }
+
+        document.getElementById("noResults").style.display = found
+          ? "none"
+          : "block";
+      }
+
+      // 🟢 Close with smooth fade-out
+      function closeWithAnimation() {
+        document.body.style.opacity = "0";
+        setTimeout(() => {
+          window.history.back();
+        }, 400); // wait for fade-out
+      }
+    </script>
+  </body>
+</html>
